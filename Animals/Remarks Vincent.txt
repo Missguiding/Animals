@@ -1,0 +1,66 @@
+﻿Dag Lindsey,
+
+ook hier dezelfde opmerking.
+- Je variabelen "private" maken, van buiten de klasse dog mogen ze niet zichtbaar zijn.
+
+- Ik ga ervan uit dat dit oefening 12.01 is :-)
+
+- Probeer je klasses in een aparte file te steken.
+
+- Property AgeDog.
+  - Vreemd dat de getter de hond laat zitten als de leeftijd meer dan 8 is.
+    - Is dit je manier van testen?
+    - Wie zegt dat je op dat moment al de naam kent? 
+      - Altijd als je zo'n dingen doet, de property van de naam gebruiken --> NameDog
+      - En NameDog laat je hond blaffen.
+    - Dus als je de naam vraagt, blaft de hond.
+
+    - Opletten met je commentaar.
+      - Let every dog bark, dat klopt niet. Het is maar 1 hond die blaft (this)
+
+- Ik zie dat de getter van KindDog ook de hond laat eten.
+  - Ik ga ervan uit dat je hier de dingen wou testen.
+  - Nooit doen in echte projecten.
+
+- Constructor zonder parameters. Check
+- Constructor met 1 parameter. Check
+- Constructor met meerdee parameters. Voor verbetering vatbaar.
+  - Je erft van this(), je zou beter erven van this(strName)
+    - Verander dit in je code.
+    - Je hebt nu dubbele code "NameDog = strName" (komt in 2 constructors voor)
+  - Wat je gemaakt hebt, werkt wel.
+
+
+- Opletten met je variabele "_strBark", dit kan verwarrend zijn.
+  - Volgens niet verplichte afspraken is een "_" een variabele van een klasse, en hier is het een variabele van een methode.
+  - De naam is wel juist, maar kan voor verwarring zorgen.
+
+  - De hond beept ook :-)
+
+- Sit
+  - Waarom geef je een parameter mee?
+  - De parameter is gekend in de klasse, het is namelijk de property "NameDog", maar oppassen hier als je dat doet.
+    - Dan kom je in een vreemde situatie terecht.
+      - De hond als die zit, vraag je de naam. Maar als je de naam vraagt, dan gaat de hond blaffen.
+      - Wil jij dat wel?
+        - Je zet "sit", en de hond gaat blaffen als je de property zou gebruiken.
+
+      - De properties beperken dat wat ze moeten doen.
+
+- CountDog()
+  - Is volledig fout.
+  - Telkens je CountDog vraagt, wordt het getal met 1 verhoogd.
+  - Het is dan niet dat je "intDogCounter" moet verhogen.
+  - Wanneer wel?
+  - Ik heb in je testprogramma nog eens extra "CountDog" getoond, om te tonen dat je dan 5 honden hebt.
+  - En als ik het nog eens zou tonen, dan heb je er zes.
+
+  
+- Je laat in je testprogramma nergens de hond zitten, eten en blaffen (omdat je het via de properties test)
+- En je gaat zien dat de sit niet echt praktisch is, omdat je een naam moet meegeven.
+
+Dus deze oefening heeft nog een beetje aandacht nodig.
+- Maar is als eerste poging bij klasses goed.
+
+
+
