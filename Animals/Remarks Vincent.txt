@@ -41,8 +41,7 @@ VVDW: Uitstekend
     - Je hebt nu dubbele code "NameDog = strName" (komt in 2 constructors voor)
   - Wat je gemaakt hebt, werkt wel.
   * Aangepast
-VVDW: Bij je eerste constructor hoeft this() er niet te staan. Die doet toch niets.
-  - Let op de schrijfwijze van property (jij schrijft proporty)
+VVDW: Let op de schrijfwijze van property (jij schrijft proporty)
 
 - Opletten met je variabele "_strBark", dit kan verwarrend zijn.
   - Volgens niet verplichte afspraken is een "_" een variabele van een klasse, en hier is het een variabele van een methode.
@@ -79,6 +78,9 @@ VVDW: Nee dit klopt niet, dit is nog steeds volledig fout.
 - Nu hebt je een mix van de twee
   - Je kunt gerust "CountDog" static maken (property)
   - Telkens je een hond maakt, dus in de constructor, moet je CountDog met 1 verhogen.
+  - En daar stopt het dus.
+  - CountDog moet altijd het aantal honden tonen die gemaakt zijn.
+  - Jij geeft iedere hond een volgnummer.
  
 
 - Je laat in je testprogramma nergens de hond zitten, eten en blaffen (omdat je het via de properties test)
