@@ -1,26 +1,33 @@
 ﻿Dag Lindsey,
 
 ook hier dezelfde opmerking.
-- Je variabelen "private" maken, van buiten de klasse dog mogen ze niet zichtbaar zijn.
+- Je variabelen "private" maken, van buiten de klasse dog mogen ze niet zichtbaar zijn. 
+* ok
 
 - Ik ga ervan uit dat dit oefening 12.01 is :-)
+* Idd
 
 - Probeer je klasses in een aparte file te steken.
+* Dog.cs. correct?
 
 - Property AgeDog.
   - Vreemd dat de getter de hond laat zitten als de leeftijd meer dan 8 is.
     - Is dit je manier van testen?
+   * Heb het aangepast 
     - Wie zegt dat je op dat moment al de naam kent? 
       - Altijd als je zo'n dingen doet, de property van de naam gebruiken --> NameDog
       - En NameDog laat je hond blaffen.
     - Dus als je de naam vraagt, blaft de hond.
+    * Dat was de bedoeling maar heb het aangepast
 
     - Opletten met je commentaar.
-      - Let every dog bark, dat klopt niet. Het is maar 1 hond die blaft (this)
+      - Let every dog bark, dat klopt niet. Het is maar 1 hond die blaft (this) 
+      * Aangepast
 
 - Ik zie dat de getter van KindDog ook de hond laat eten.
   - Ik ga ervan uit dat je hier de dingen wou testen.
   - Nooit doen in echte projecten.
+  * Allemaal verwijderd
 
 - Constructor zonder parameters. Check
 - Constructor met 1 parameter. Check
@@ -29,13 +36,14 @@ ook hier dezelfde opmerking.
     - Verander dit in je code.
     - Je hebt nu dubbele code "NameDog = strName" (komt in 2 constructors voor)
   - Wat je gemaakt hebt, werkt wel.
-
+  * Aangepast
 
 - Opletten met je variabele "_strBark", dit kan verwarrend zijn.
   - Volgens niet verplichte afspraken is een "_" een variabele van een klasse, en hier is het een variabele van een methode.
   - De naam is wel juist, maar kan voor verwarring zorgen.
-
+  * Variable verwijderd
   - De hond beept ook :-)
+  * Je moet toch horen dat hij blaft hé :-)
 
 - Sit
   - Waarom geef je een parameter mee?
@@ -46,6 +54,7 @@ ook hier dezelfde opmerking.
         - Je zet "sit", en de hond gaat blaffen als je de property zou gebruiken.
 
       - De properties beperken dat wat ze moeten doen.
+      * Aangepast
 
 - CountDog()
   - Is volledig fout.
@@ -54,10 +63,12 @@ ook hier dezelfde opmerking.
   - Wanneer wel?
   - Ik heb in je testprogramma nog eens extra "CountDog" getoond, om te tonen dat je dan 5 honden hebt.
   - En als ik het nog eens zou tonen, dan heb je er zes.
+  * Dit klopt?
 
   
 - Je laat in je testprogramma nergens de hond zitten, eten en blaffen (omdat je het via de properties test)
 - En je gaat zien dat de sit niet echt praktisch is, omdat je een naam moet meegeven.
+* methodes public gemaakt, zodat ik ze in de main ook kan testen.
 
 Dus deze oefening heeft nog een beetje aandacht nodig.
 - Maar is als eerste poging bij klasses goed.
