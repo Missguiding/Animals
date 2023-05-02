@@ -90,5 +90,31 @@ VVDW: Nee dit klopt niet, dit is nog steeds volledig fout.
 Dus deze oefening heeft nog een beetje aandacht nodig.
 - Maar is als eerste poging bij klasses goed.
 
+---
+20230502 (2 mei)
 
+Oefening 12.03: Chicken.
+
+De klasse chicken.
+- Variabele ok.
+- Constructor ok.
+- Method "HowManyEggs".
+  - Waarom is dit private method?
+  - Dit wil zeggen dat ik het buiten de klasse niet kan gebruiken.
+  - En het toont gewoon de tekst, het moet een titel.
+    - Je maaakt het jezelf veel te ingewikkeld.
+
+- Property. Bijna vlekkeloos.
+  - Je moet de methode hier niet zetten. De get moet gewoon het aantal eieren teruggeven.
+  - De "HowManyEggs" is een methode die in je testprogramma moet staan.
+  - De property NumberOfEggsInOneDay is gewoon de "wrap around" van _intEggsInOneDay
+    - Niet meer, niets minder.
+
+- Ik heb de code zelf aangepast, zodanig dat je het ziet. Met de initialen VVDW gemarkeerd.
+
+Oefening 12.02: Classroom
+- Vind ik niet terug
+
+Oefening 12.01: Dog
+- Het tellen van de honden is nog steeds hetzelfde. Het is niet verbeterd.
 

@@ -26,7 +26,7 @@ namespace Animals
                     _intEggsInOneDay = 2;
                 }
 
-                HowManyEggs(); // use method 
+                // HowManyEggs(); // use method - VVDW placed in comment
 
                 return _intEggsInOneDay;
             }
@@ -40,10 +40,10 @@ namespace Animals
         {
             NumberofEggsInOneday = 1;
         }
-        private void HowManyEggs() // method
-
+        public void HowManyEggs() // method
+        // VVDW Changed private into public
         {
-            Console.WriteLine("This chicken can lay so many eggs a day:");
+            Console.WriteLine("This chicken can lay so many eggs a day: {0}", NumberofEggsInOneday);
         }
     }
 }
